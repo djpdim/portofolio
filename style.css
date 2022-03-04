@@ -1,0 +1,23 @@
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    
+  }
+
+  header nav ul li a {
+    padding: 10px 15px;
+    font-weight: lighter;
+    font-size: 1.20vw;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+
+  .div-back {
+    background-image: url(../refactory/images/digital-marketing-meeting.jpg);
+    background-size: 100%;
+    width: auto;
+    height: 180px;
+    border: none;
+     }
