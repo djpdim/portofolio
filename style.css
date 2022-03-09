@@ -208,11 +208,11 @@ body {
 
 
 /* .hero vl {
-    border-left: 5px solid var(--tertiary-color);
-    border-bottom: 150px solid;
-    position: relative;
-    left: 150px;
-    top: 0;
+border-left: 5px solid var(--tertiary-color);
+border-bottom: 150px solid;
+position: relative;
+left: 150px;
+top: 0;
 } */
 
 .hero p {
@@ -224,20 +224,22 @@ body {
     text-align: auto;
     flex-basis: 70%;
     margin-top: 10px;
+    margin-right: 0px;
 }
 
 .contact {
     text-align: left;
 }
 
-.run-buddy {
-    background-image: url('./images/hero-bg.jpeg');
-    flex-grow: 4;
-    margin: 0px 10px 0px 80px;
-    border: 1px solid black;
-    background-size: cover;
-    width: 1%;
-}
+
+/* .run-buddy {
+background-image: url('./images/hero-bg.jpeg');
+flex-grow: 4;
+margin: 0px 10px 0px 80px;
+border: 1px solid black;
+background-size: cover;
+width: 1%;
+ */
 
 .hero-contact a {
     line-height: 1.5;
@@ -247,9 +249,10 @@ body {
     justify-content: space-around;
     align-items: center;
     list-style: none;
-    padding: 60px 75px;
+    padding: 60px 55px;
     font-weight: bold;
     font-size: 1.80vw;
+    margin-left: 40px;
 }
 
 .run-buddy {
@@ -257,23 +260,123 @@ body {
     flex-wrap: wrap;
 }
 
-.run {
-    font-size: 30px;
-    font-weight: bold;
-    position: relative;
-    background-color: rgba(0, 255, 255, 0.671);
-    margin: 15px;
-    padding: 15px 24px;
-    border-radius: 4px;
-}
 
-.htc {
-    font-size: 15px;
-    font-weight: lighter;
-    background-color: rgba(0, 255, 255, 0.671);
-    margin: 15px;
-    padding: 15px 24px;
-    border-radius: 4px;
+/* html {
+    scroll-behavior: smooth;
+  } */
+
+.top{
     display: flex;
-    justify-content: flex-start;
+    justify-content: flex-end;
+    
+    
 }
+@media screen and (max-width: 980px) {
+    header {
+      padding-bottom: 0;
+      justify-content: center;
+      position: relative;
+    }
+  
+    header h1 {
+      width: 100%;
+      text-align: center;
+    }
+  
+    header nav ul {
+      margin-top: 20px;
+      width: 100%;
+      justify-content: center;
+    }
+  
+    header nav ul li a {
+      font-size: 20px;
+    }
+  
+    footer h2, footer div {
+      text-align: center;
+      width: 100%;
+    }
+  
+    .hero .hero-form {
+      width: 100%;
+    }
+    
+    .hero-cta {
+      text-align: center;
+    }
+  
+    .section-title {
+      width: 80%;
+    }
+    
+    
+    .contact-info iframe{
+      flex: 1 100%;
+    }
+  }
+  
+  /* MEDIA QUERY FOR TABLETS AND SMALLER */
+  @media screen and (max-width: 768px) {
+    section {
+      padding: 30px 15px;
+    }
+  
+    .step h3 {
+      flex: 1 100%;
+      text-align: center;
+    }
+  
+    .step-info {
+      flex: 2 100%;
+      text-align: center;
+      justify-content: center;
+    }
+  
+    .step-img {
+      flex: 0 32%;
+      margin-right: 0;
+      margin-top: 15px;
+      margin-bottom: 15px;
+    }
+  
+    .step-text {
+      flex: 100%;  
+    }
+  
+    .trainer-bio h3, .trainer-bio h4 {
+      display: block;
+    }
+  }
+  
+  /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
+  @media screen and (max-width: 575px) {
+    .hero-form button {
+      width: 100%;
+    }
+  
+    .section-title {
+      width: 95%;
+    }
+  
+    .intro p {
+      width: 100%;
+    }
+  
+    .trainer {
+      flex: 0 100%;
+    }
+  
+    .contact-info {
+      text-align: center;
+    }
+  
+    .contact-info > * {
+      flex: 0 100%;
+    }
+  
+    .contact-form {
+      order: 3;
+    }
+  }
+  
