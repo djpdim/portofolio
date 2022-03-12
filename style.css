@@ -261,7 +261,26 @@
         opacity: 0.5;
         border: solid 5px var(--secondary-color);
     }
-    
+    @media screen and (max-width: 1280px) {
+        .img-text h3{
+            left: -182px;
+        }
+        .img-text2 h3{
+            left: -120px;
+        }
+        .hero-contact{
+            margin: 40px;
+        }
+
+        .hero-contact a{
+            padding: 40px 0px;
+            margin-left: 90px;
+        }
+        .top{
+            right:25px;
+        }
+        
+    }
     @media screen and (max-width: 980px) {
         header {
             padding-bottom: 0;
@@ -290,7 +309,7 @@
             justify-content: center;
         }
         .hero-contact a {
-            margin-left: 65px;
+            margin-left: 40px;
             font-size: 100%;
         }
         .run-buddy {
@@ -483,3 +502,92 @@
                 font-size: 100%;
             }
         }
+        @media screen and (max-width: 420px) {
+            header {
+                padding-bottom: 0;
+                justify-content: center;
+                position: relative;
+            }
+            header h1 {
+                text-align: center;
+            }
+            header nav ul {
+                margin-top: 20px;
+                width: 100%;
+                justify-content: center;
+            }
+            header nav ul li a {
+                font-size: 20px;
+            }
+            .hero-work h2 {
+                flex: 2 100%;
+                text-align: center;
+                justify-content: center;
+            }
+            .contact a {
+                width: 10%;
+            }
+            .run-buddy link {
+                margin-left: 297px;
+            }
+            .img-text h3 {
+                position: relative;
+                bottom: 44px;
+                left: -45px;
+                color: var(--tertiary-color);
+                padding-left: 20px;
+                padding-right: 20px;
+                font-size: 15px;
+                opacity: 0.5;
+                text-align: center;
+            }
+            .img-text2 h3 {
+                position: relative;
+                bottom: 44px;
+                left: -50px;
+                color: var(--tertiary-color);
+                padding-left: 0px;
+                padding-right: 20px;
+                font-size: 15px;
+                opacity: 0.5;
+            }
+
+           
+            .link2 {
+                position: relative;
+                text-align: center;
+                border: 2px solid var(--secondary-color);
+                left: -40px;
+            }
+            .hero-contact a {
+                margin-left: 10px;
+                padding: 10px 90px;
+                font-size: 100%;
+            }
+            .top{
+                right: 110px;
+            }
+
+@media screen and (max-width:321px) {
+        .img-text h3 {        
+            left: -25px;
+            color: black;
+            opacity: 1;
+        }
+        
+        .img-text2 h3{
+            left: -34px;
+            opacity: 1;
+            color: black;
+        }
+
+        .hero-contact a {
+            margin: 0px;
+            padding: 10px 75px;
+        }
+        .top{
+            margin-right: 0px;
+        }
+}
+}
+}
