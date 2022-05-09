@@ -11,22 +11,16 @@ I build this portofolio in order to have a page to display my projects.
 
 https://djpdim.github.io/portofolio/
 
-
 ## Usage
 
 My portofolio it is designed with a way that will be easy accesible.
 there are buttons that will take you to their related sections.
 
-
-
 ![alt text](assets/images/dimos-portofolio.png)
-
-
 
 ## Credits
 
 CREDITS FOR THE PICTURE FROM <a href="https://www.vecteezy.com/free-vector/circuit-board">Circuit Board Vectors by Vecteezy</a>
-
 
 ## License
 
@@ -52,11 +46,9 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-
 ---
 
 🏆 The sections listed above are the minimum for a high-quality README, but your project will ultimately determine the content of this document. You might also want to consider adding the following sections.
-
 
 ## Features
 
