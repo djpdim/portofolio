@@ -296,15 +296,15 @@ body {
     }
 }
 @media screen and (max-width: 980px) {
-    header {
+    .header {
         padding-bottom: 0;
         justify-content: center;
         position: relative;
     }
-    header h1 {
+    .header h1 {
         text-align: center;
     }
-    header nav ul {
+    .header nav ul {
         margin-top: 20px;
         width: 100%;
         justify-content: center;
@@ -510,6 +510,7 @@ body {
             border: 2px solid var(--secondary-color);
             left: -18px;
         }
+
         .hero-contact a {
             margin-left: 10px;
             padding: 10px 10px;
@@ -520,17 +521,20 @@ body {
         header {
             padding-bottom: 0;
             justify-content: center;
+        }
+
+        .traveleasy {
             position: relative;
         }
-        header h1 {
+        .header h1 {
             text-align: center;
         }
-        header nav ul {
+        .header nav ul {
             margin-top: 20px;
             width: 100%;
             justify-content: center;
         }
-        header nav ul li a {
+        .header nav ul li a {
             font-size: 20px;
         }
         .hero-work h2 {
@@ -602,5 +606,3 @@ body {
                 margin-right: 0px;
             }
         }
-    }
-}
