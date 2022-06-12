@@ -231,6 +231,22 @@ body {
     width: 70%;
     margin-left: 127px;
 }
+.bibli {
+    position: relative;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    width: 70%;
+    margin-left: 127px;
+}
+.mctech {
+    position: relative;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    width: 70%;
+    margin-left: 127px;
+}
 
 .run-buddy link {
     margin-left: 297px;
@@ -569,6 +585,12 @@ body {
         }
 
         .traveleasy {
+            position: relative;
+        }
+        .bibli {
+            position: relative;
+        }
+        .mctech {
             position: relative;
         }
         .header h1 {
